@@ -18,19 +18,17 @@ A Claude Code plugin that implements Codebuff's base2 "Buffy the Orchestrator" p
 
 ```bash
 # Add this marketplace to Claude Code
-/plugin marketplace add yourusername/buffy-plugin
+/plugin marketplace add Xopper/buffy-plugin
 
 # Install the plugin
-/plugin install buffy-orchestrator@yourusername-buffy-plugin
+/plugin install buffy-orchestrator@Xopper-buffy-plugin
 ```
-
-Replace `yourusername` with your GitHub username after pushing to GitHub.
 
 ### Manual Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/buffy-plugin.git
+git clone https://github.com/Xopper/buffy-plugin.git
 
 # Copy to your project's .claude directory
 cp -r buffy-plugin/plugins/buffy-orchestrator/agents /path/to/your/project/.claude/
@@ -189,23 +187,9 @@ buffy-plugin/
 └── LICENSE
 ```
 
-## Publishing to GitHub
+## Repository
 
-1. Create a new repository on GitHub
-2. Push this code:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Buffy Orchestrator plugin"
-   git remote add origin https://github.com/yourusername/buffy-plugin.git
-   git push -u origin main
-   ```
-
-3. Users can then install with:
-   ```bash
-   /plugin marketplace add yourusername/buffy-plugin
-   /plugin install buffy-orchestrator@yourusername-buffy-plugin
-   ```
+This plugin is available at: https://github.com/Xopper/buffy-plugin
 
 ## License
 
