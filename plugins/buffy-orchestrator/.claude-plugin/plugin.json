@@ -1,0 +1,14 @@
+{
+  "name": "buffy-orchestrator",
+  "version": "1.0.0",
+  "description": "Codebuff-style multi-agent orchestrator for complex coding tasks. Coordinates specialized subagents for file exploration, code search, deep thinking, editing, and code review.",
+  "author": "Ali",
+  "license": "MIT",
+  "keywords": [
+    "orchestrator",
+    "multi-agent",
+    "codebuff",
+    "coding-assistant",
+    "automation"
+  ]
+}

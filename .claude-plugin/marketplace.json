@@ -1,0 +1,14 @@
+{
+  "name": "buffy-plugin",
+  "owner": {
+    "name": "Ali"
+  },
+  "plugins": [
+    {
+      "name": "buffy-orchestrator",
+      "source": "./plugins/buffy-orchestrator",
+      "description": "Codebuff-style multi-agent orchestrator for complex coding tasks. Coordinates specialized subagents for file exploration, code search, deep thinking, editing, and code review.",
+      "version": "1.0.0"
+    }
+  ]
+}
